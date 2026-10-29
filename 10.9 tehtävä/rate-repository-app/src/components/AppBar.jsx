@@ -27,7 +27,9 @@ const AppBar = () => {
         <ScrollView style={styles.scrollerView} horizontal contentContainerStyle={{ 
           flexDirection: 'row', alignItems: 'center' 
         }}>
-            <Text style={styles.title}>Repositories</Text>
+            <Link to="/" style={{ padding: 10 }}>
+              <Text style={styles.title}>Repositories</Text>
+            </Link>
             <Link to="/signin" style={{ padding: 10 }}>
               <Text style={styles.signInButton}>Sign In</Text>
             </Link>
